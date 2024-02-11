@@ -1,10 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { TabRouters } from "./tab.routers";
+
+import { DrawerRouter } from "./drawer.router";
 
 export function Router() {
   return (
     <NavigationContainer>
-      <TabRouters />
+      <DrawerRouter />
     </NavigationContainer>
   );
 }
